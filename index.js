@@ -3,7 +3,7 @@ const http = require("http");
 
 const server = http.createServer((req, res)=>{
     res.writeHead(200,({"Content-Type":"text/plain"}));
-    res.end("Welcome to Kings Production");
+    res.end("Welcome the Kings Production");
 });
 
 const port = process.env.port || 3000;
